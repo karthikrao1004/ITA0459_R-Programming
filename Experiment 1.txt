@@ -1,0 +1,9 @@
+ name = readline(prompt="Input your name: ")
+Input your name: roman
+> age = readline(prompt="Input your age: ")
+Input your age: 55
+> print(paste("My name is",name, "and I am",age ,"years old."))
+[1] "My name is roman and I am 55 years old."
+> print(R.version.string)
+[1] "R version 4.3.1 (2023-06-16 ucrt)"
+> 

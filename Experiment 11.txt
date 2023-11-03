@@ -1,0 +1,18 @@
+ str1 = "The quick brown fox jumps over the lazy dog."
+> print("Original vector(string)")
+[1] "Original vector(string)"
+> print(str1)
+[1] "The quick brown fox jumps over the lazy dog."
+> print("Unique elements of the said vector:")
+[1] "Unique elements of the said vector:"
+> print(unique(tolower(str1)))
+[1] "the quick brown fox jumps over the lazy dog."
+> nums = c(1, 2, 2, 3, 4, 4, 5, 6)
+> print("Original vector(number)")
+[1] "Original vector(number)"
+> print(nums)
+[1] 1 2 2 3 4 4 5 6
+> print("Unique elements of the said vector:")
+[1] "Unique elements of the said vector:"
+> print(unique(nums))
+[1] 1 2 3 4 5 6
