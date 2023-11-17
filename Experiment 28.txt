@@ -1,0 +1,18 @@
+ L = sample(LETTERS,size=50,replace=TRUE)
+> print("Original data:")
+[1] "Original data:"
+> print(L)
+ [1] "X" "A" "G" "L" "S" "C" "V" "S" "C" "A" "S" "J" "D" "K" "Y" "K" "O" "L" "M" "F" "X" "O" "E" "T" "W" "G" "W" "K" "Q" "M" "I" "P" "E" "V" "Z" "Z" "E" "R" "S" "B" "V" "Z" "A" "X" "F" "Z"
+[47] "A" "A" "J" "P"
+> f = factor(L)
+> print("Original factors:")
+[1] "Original factors:"
+> print(f)
+ [1] X A G L S C V S C A S J D K Y K O L M F X O E T W G W K Q M I P E V Z Z E R S B V Z A X F Z A A J P
+Levels: A B C D E F G I J K L M O P Q R S T V W X Y Z
+> print("Only five of the levels")
+[1] "Only five of the levels"
+> print(table(L[1:5]))
+
+A G L S X 
+1 1 1 1 1 

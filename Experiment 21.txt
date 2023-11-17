@@ -1,0 +1,34 @@
+ print("Two vectors of different lengths:")
+[1] "Two vectors of different lengths:"
+> v1 =  c(1,3,4,5)
+> v2 =  c(10,11,12,13,14,15)
+> print(v1)
+[1] 1 3 4 5
+> print(v2)
+[1] 10 11 12 13 14 15
+> result = array(c(v1,v2),dim = c(3,3,2))
+> print("New array:")
+[1] "New array:"
+> print(result)
+, , 1
+
+     [,1] [,2] [,3]
+[1,]    1    5   12
+[2,]    3   10   13
+[3,]    4   11   14
+
+, , 2
+
+     [,1] [,2] [,3]
+[1,]   15    4   11
+[2,]    1    5   12
+[3,]    3   10   13
+
+> print("The second row of the second matrix of the array:")
+[1] "The second row of the second matrix of the array:"
+> print(result[2,,2])
+[1]  1  5 12
+> print("The element in the 3rd row and 3rd column of the 1st matrix:")
+[1] "The element in the 3rd row and 3rd column of the 1st matrix:"
+> print(result[3,3,1])
+[1] 14
